@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 15.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg class="design-bg" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="2000px"
+	 height="20px" viewBox="0 0 2000 20" enable-background="new 0 0 2000 20" xml:space="preserve">
+    <rect class="wall" x="0" y="0" fill="#A2EDED" width="2000" height="20"/>
+	<rect class="floor" x="0" y="3.2" fill="#B0F4F7" width="2000" height="16.1"/>
+    <rect class="side" x="0" y="19.3" fill="#A2EDED" width="2000" height="0.7"/>
+</svg>

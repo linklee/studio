@@ -1,0 +1,115 @@
+<div class="contact contacts-page" id="contact">
+    <div class="wrapper">
+    	<ol class="breadcrumb breadcrumb-custom breadcrumb-contacts">
+    		<li><a href="/" data-turbolinks="false" >Главная</a></li>
+   	    	<li class="active">Контакты</li>        
+		</ol>
+        <div class="board">
+            <div class="info">
+                <div class="line facebook hidden">
+                    <img src="img/icon_fb.svg" alt="facebook ikona"/>
+                    <a href="#">Digital Sharks</a>
+                </div>
+                <div class="line phone">
+                    <img src="img/icon_phone.svg" alt="telefon ikona"/>
+                    <span>+7(992) 334 01 54</span>
+                    <span class="time">с 10:00 до 22:00 по Москве</span>
+                </div>
+                <div class="line email">
+                    <img src="img/icon_email.svg" alt="email ikona"/>
+                    <a href="mailto:optimagp66@gmail.com">optimagp66@gmail.com</a>
+                </div>
+                <div class="line address">
+                    <img src="img/icon_address.svg" alt="adresa ikona"/>
+                    <span>Digital sharks</span>
+                    <span class="street">Малышева 24, офис 56<span class="comma">, </span></span>
+                    <span class="city">Екатеринбург, <span class="comma">&nbsp;</span></span>
+                    <span class="state">Свердловская область</span>
+
+                </div>
+            </div>
+            <div id="map_canvas"></div>
+            <div class="clearfix"></div>
+        </div>
+
+    </div>
+        <img src="img/packed.svg" class="jano"/>
+</div>
+
+<div class="reference-window">
+        <span class="icon-close close"></span>
+    <span class="icon-arrow-left prev"></span>
+    <span class="icon-arrow-right next"></span>
+
+    <div class="swiper-container reference-slider">
+        <div class="swiper-wrapper">
+
+        </div>
+    </div>
+</div>
+
+<div class="form-window">
+    <span class="icon-close close"></span>
+    <div class="swiper-container form-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide" id="slide-name">
+                <div class="slide-content">
+                    <label for="name">Добрый день. Мы Digital Shark, а вы?</label>
+                    <input type="text" name="name" id="name"/>
+                    <p>Пожалуйста напишите ваше имя или название компании.</p>
+                    <span class="error"></span>
+                    <button class="next"><span>далее</span></button>
+                </div>
+            </div>
+            <div class="swiper-slide" id="slide-contact">
+                <div class="slide-content">
+                    <label for="contact">Мы любими общаться! И хотели бы узнать как сможем наладить с вами партнерские отношения.</label>
+                    <input type="text" name="contact" id="contact"/>
+                    <p>Пожалуйста, укажите ваш номер телефона.</p>
+                    <span class="error"></span>
+                    <button class="prev"><span>назад</span></button>
+                    <button class="next"><span>далее</span></button>
+                </div>
+            </div>
+            <div class="swiper-slide" id="slide-info">
+                <div class="slide-content">
+                    <label for="info">Напишите больше информации о вашем проекте. Пишите много!</label>
+                    <textarea name="info" id="info"></textarea>
+                    <p>Например, продвижение существуюшего сайта или создание интернет магазина.</p>
+                    <span class="error"></span>
+                    <button class="prev"><span>назад</span></button>
+                    <button class="next"><span>далее</span></button>
+                </div>
+            </div>
+            <div class="swiper-slide" id="slide-budget">
+                <div class="slide-content">
+                    <label for="budget">Сколько денег вы бы хотели инвестировать в ваш проект,</label>
+                    <input type="text" name="budget" id="budget"/>
+                    <p>Ожидаемый бюджет поможет соотнести ваши ожидания и найти подходящие варианты</p>
+                    <span class="error"></span>
+                    <button class="prev"><span>назад</span></button>
+                    <button class="next send"><span>далее</span></button>
+                </div>
+            </div>
+            <div class="swiper-slide" id="slide-finish">
+                <div class="slide-content">
+                    <img src="img/kite.svg" class="kite" alt="kite"/>
+                    <label for="q3">Спасибо, пока это все. Мы ответим вам очень скоро!</label>
+                    <p>Мы отвечаем в течении 24 часов, если конечно мы не остались без связи на необитаемом острове посреди тихого океана :-)</p>
+                </div>
+            </div>
+            <div class="swiper-slide" id="slide-success">
+                <div class="slide-content">
+                    <label for="q3">Сообщение успешно отправлено</label>
+                    <button class="close"><span>закрыть</span></button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+var lang = "ru";
+var formErrors = {"n1":"Напишите, пожалуйста, Ваше имя.","n2":"Пожалуйста, заполните контактную информацию.","n3":"Пожалуйста, напишите больше информации о проекте."};
+</script>
+
+<script src="http://maps.googleapis.com/maps/api/js?sensor=false&key=AIzaSyB2PkXKkXydN5BNoJTio-PewFMGpioaiTY&language=ru"></script>

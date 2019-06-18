@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/css" href="../css/svg_fix.css" ?>
+<!-- Generator: Adobe Illustrator 15.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Vrstva_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="94.7px" height="305.6px" viewBox="0 0 94.7 305.6" enable-background="new 0 0 94.7 305.6" xml:space="preserve">
+<polygon id="diera_2_" fill="#2E3533" points="0,291.4 23.5,304.6 71.3,304.6 94.7,291.4 71.3,277.6 23.5,277.3 "/>
+<line id="prava_zadna_10_" opacity="0.2" fill="#FFFFFF" enable-background="new    " x1="71.3" y1="305.4" x2="94.7" y2="291.2"/>
+<g id="rura2_2_">
+	<g>
+		<g>
+			<polygon opacity="0.4" fill="#95AAAF" enable-background="new    " points="94.7,284.7 94.7,291.3 71.3,277.5 23.5,277.2 
+				0,291.3 0,284.6 23.5,270.6 71.3,270.7 			"/>
+			<polygon fill="#95AAAF" points="94.7,291.3 94.7,284.7 71.3,298.9 23.5,298.8 0,284.6 0,291.3 23.5,305.5 71.3,305.6 			"/>
+		</g>
+		<polygon id="stredna_predna_5_" opacity="0.6" fill="#91A9AA" enable-background="new    " points="23.5,162.8 0,148.6 0,284.6 
+			23.5,305.5 71.3,305.6 94.7,284.7 94.7,148.6 71.3,162.9 		"/>
+		<polygon id="lava_predna_5_" opacity="0.3" fill="#475152" enable-background="new    " points="23.5,162.8 23.5,305.5 0,291.3 
+			0,148.6 		"/>
+	</g>
+	<polygon id="prava_zadna_9_" opacity="0.2" fill="#FFFFFF" enable-background="new    " points="94.7,148.6 94.7,291.3 71.3,305.6 
+		71.3,162.9 	"/>
+</g>
+<g id="rura3_2_">
+	<g>
+		<polygon opacity="0.4" fill="#95AAAF" enable-background="new    " points="94.7,141.9 94.7,148.6 71.3,134.8 23.5,134.5 0,148.6 
+			0,141.9 23.5,127.8 71.3,127.9 		"/>
+		<polygon fill="#95AAAF" points="94.7,148.6 94.7,141.9 71.3,156.2 23.5,156.1 0,141.9 0,148.6 23.5,162.8 71.3,162.8 		"/>
+	</g>
+	<polygon opacity="0.6" fill="#91A9AA" enable-background="new    " points="0,0 0,141.9 23.5,162.8 71.3,162.8 94.7,141.9 94.7,0 	
+		"/>
+	<polygon opacity="0.3" fill="#475152" enable-background="new    " points="0,0 0,148.6 23.5,162.8 23.5,0 	"/>
+	<polygon id="prava_zadna_6_" opacity="0.2" fill="#FFFFFF" enable-background="new    " points="94.7,0 94.7,148.6 71.3,162.9 
+		71.3,0 	"/>
+</g>
+</svg>

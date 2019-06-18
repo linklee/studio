@@ -1,0 +1,15 @@
+svg {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+@-moz-document url-prefix() {
+   svg {
+       position: static;
+       width: auto;
+       height: auto;
+   }
+}
